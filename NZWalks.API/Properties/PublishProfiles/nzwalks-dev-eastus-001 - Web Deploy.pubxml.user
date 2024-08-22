@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAN+MUCIoY4EaMWEUbCVDjWQAAAAACAAAAAAAQZgAAAAEAACAAAAASrKA+E7Rysh0J1XLVdVJB4tky+yhycNER1FS87hJrvQAAAAAOgAAAAAIAACAAAAD4TC13bWkBBAzqoRJCuQ2uBJA+1F0/h1ZqeUpLi0YkDiAAAACL5hmQNb/GUx/iIgB67elqlKGdxnch0VC4BKmC0MrtJkAAAABowRV1ynfbMOGPDKsflek+vpOFbOr4l+MUUA8rv5c1yPdn3QSy9jFtE5elXGXVDZ2SpCQnUwNMeMsq7weSxaPF</EncryptedPassword>
+    <History>False|2024-08-22T18:20:13.0906302Z||;False|2024-08-22T15:01:52.0961722-03:00||;False|2024-08-22T14:59:13.8821729-03:00||;False|2024-08-22T14:57:07.1430462-03:00||;False|2024-08-22T14:56:28.9828268-03:00||;False|2024-08-22T14:51:17.2833645-03:00||;False|2024-08-22T14:45:09.2538346-03:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="NZWalks.API.Data.NZWalksAuthDbContext">
+      <Value>server=%28localdb%29\mssqllocaldb%3bdatabase=NZWalksDb%3bTrusted_Connection=true%3bTrustServerCertificate=true</Value>
+    </EFMigrations>
+    <EFMigrations Include="NZWalks.API.Data.NZWalksDbContext">
+      <Value>server=%28localdb%29\mssqllocaldb%3bdatabase=NZWalksDb%3bTrusted_Connection=true%3bTrustServerCertificate=true</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NZ-Walks.UI.props" />
+</Project>
